@@ -1,0 +1,281 @@
+/* Estilos Globais */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+.destaque-azul, span { 
+	color: #2f86d6;
+}
+.largura-padrao{ 
+	margin: 0 auto;
+	max-width: 1024px;
+}
+
+.logo-texto, .navegacao, .imagem-banner, .texto-banner, .coluna1, .coluna2, .coluna3{ 
+	display: inline-block;	 
+}
+
+.container-logo, .logo-texto, .navegacao, .container-banner img, .texto-banner, .botao-anuncio, .botao-anuncio a, .botao-anuncio img, .texto-anuncio, .container-rodape, .logo-texto-rodape{ 
+	position: relative;
+}
+
+.container-informacoes, .container-planos{
+	padding: 100px 0px 0px 0px;
+	text-align: center;
+}
+
+
+/* Estilos do Topo */
+
+.logo-texto { 
+	bottom: 25px;
+	left: 2px;
+}
+.logo-texto p {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.container-logo { 
+	padding: 35px 0; 
+}
+
+.container-logo img{
+	height: 90px;	
+ }
+
+.navegacao { 
+	left: 300px;
+	bottom: 35px;
+}
+.navegacao a { 
+  padding: 0 10px;
+	text-decoration: none;
+	font-weight: bold;	 
+}
+
+.link-preco-cor, .destaque-branco{
+	color: #fff;
+}
+
+.link-home-cor {
+		color: #000;
+}
+
+/* Estilização Seção Banner */
+
+.container-banner {
+	background-color: #2f86d6;
+}
+
+.container-banner p {
+	display: inline;
+}
+
+.container-banner img {
+ 	width: 50%;
+	top: 55px;
+	left: 75px;
+}
+
+.texto-banner{
+	width: 470px;
+	padding: 180px 0px;
+	color: #fff;
+	bottom: 10px;
+}
+
+.texto-banner h2 {
+	padding: 5% 0;
+	font-size: 30px;
+}
+
+.texto-banner p{
+	font-size: 18px;
+}
+
+/* Estilização Anúncios */ 
+
+.container-anuncio {
+	color: #fff;
+	padding: 15px 0;
+}
+
+.escuro{ /* Define cor de fundo para alguns elementos HTML*/
+	background-color: #253340;
+}
+
+.claro{ /* Define cor de fundo para alguns elementos HTML */
+	background-color: #2F86D6;	
+}
+
+.texto-anuncio { 
+	top: 26px;
+ }
+
+.botao-anuncio{
+	border-radius: 5px;
+	width: 200px;
+	height: 60px;
+	left: 350px;
+	bottom: 40px;
+}
+
+.botao-anuncio a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	left: 20px;
+	top: 16px;
+}
+
+.botao-anuncio img{
+	top: 18px;
+	left: 18px;
+}
+ 
+/* Seção Informações */
+ 
+.container-informacoes h2{
+	font-size: 40px;
+}
+
+.container-informacoes h3{
+	font-size: 18px;
+}
+.container-informacoes img{
+	width:  33%;
+	margin: 30px 0px;
+}
+
+
+ 
+.coluna1, .coluna2, .coluna3{
+  font-size: 16px;
+	width: 33%;
+	padding: 100px 0px 0px 0px;
+	line-height: 20px;
+}
+.coluna1 p, .coluna2 p, .coluna3 p{
+	padding: 20px 0px;
+}
+
+/* Estilização Seção Planos */
+
+
+.container-planos  {
+	display: flex;
+	max-width: 1215px;
+	padding: 100px 0;
+	margin: 0 auto;
+}
+
+.container-planos table{
+	border-radius: 5px;
+ 	background-color: #F2F2F2;
+ 	box-shadow: 0 0 30px 15px rgba(47, 137, 214, 1);
+	width: 100vh;
+}
+
+.container-planos caption{	
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0 0 100px 0;
+}
+
+.container-planos h3{
+	padding: 0 0 20px 0;
+}
+
+.container-planos th{
+	background-color: #fff;
+	padding: 40px;
+}
+
+.container-planos img{
+ 	display: flex;
+	margin: 0 auto;
+ 	width: 100px;
+}
+.container-planos small {
+	color: #a89f9f;
+	font-weight: 100;
+	font-size: 15px;
+}
+
+.destaque{
+	background-color: #fff;
+}
+
+.container-planos tr td{
+	padding: 15px;
+}
+
+/* Estilo Rodape */
+.container-contato{
+	text-align: center;
+ 	line-height: 40px;
+	padding: 30px 0;
+}
+
+.largura-rodape{
+	max-width: 1024px;
+	padding: 45px 0 0 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.rodape-dev{
+	text-align: center;
+ 	background-color: #F1F3F7;
+	padding: 20px ;
+}
+
+.rodape-dev a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #2F86D6;
+}
+
+/* Tabela de Preços */ 
+
+.container-tabela-preco{
+	padding: 100px 0 100px 0;
+}
+
+.container-tabela-preco tr, th, td {
+	padding: 30px 30px;
+	text-align: center;
+	white-space: nowrap;	
+	border-radius: 5px;
+}
+
+table tbody td {
+	border-bottom: 1px solid #f2f2f2;
+	border-right: 1px solid #f2f2f2;
+}
+
+table small {
+	color: #a8a4a4;
+}
+
+.hide{ /* Esconde botão da tabela de preços */ 
+	visibility: hidden;
+}
+.categoria-preco, .coluna-titulo{
+	background-color: #f2f2f2; 
+}
+
+.marcador-azul{
+	width: 20px;
+	height: 20px;
+	border: 1px solid #2f86d6;
+	border-radius: 100%;
+	background-color: #2f86d6;
+	margin: 0 auto;	 
+}
+
